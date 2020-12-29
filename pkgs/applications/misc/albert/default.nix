@@ -4,13 +4,13 @@
 
 mkDerivation rec {
   pname = "albert";
-  version = "0.16.1";
+  version = "0.17.2";
 
   src = fetchFromGitHub {
     owner  = "albertlauncher";
     repo   = "albert";
     rev    = "v${version}";
-    sha256 = "04sr35fqz66i24lv7r2p9qfqxs55i8xpj7aam0v9yakcr33lf55a";
+    sha256 = "/FyyaJVq3GzYcpajM3JW8IhROG2u0cZu49ms0nFG91I=";
     fetchSubmodules = true;
   };
 
